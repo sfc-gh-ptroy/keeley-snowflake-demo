@@ -1,0 +1,6 @@
+property_id,property_name,property_type,address,city,state,zip_code,total_sqft,rentable_sqft,year_built,acquisition_date,current_market_value,is_active,loaded_at
+PROP001,Midtown Office Tower,office,1000 Main St,St. Louis,MO,63101,250000,220000,1998,2015-03-15,45000000,true,2026-01-01
+PROP002,West County Retail Center,retail,500 Chesterfield Pkwy,Chesterfield,MO,63017,85000,80000,2005,2018-07-22,18500000,true,2026-01-01
+PROP003,North Park Industrial,industrial,7800 Industrial Dr,Hazelwood,MO,63042,150000,148000,2001,2020-11-01,22000000,true,2026-01-01
+PROP004,Clayton Medical Plaza,medical_office,200 S Brentwood Blvd,Clayton,MO,63105,60000,55000,2010,2019-04-30,14000000,true,2026-01-01
+PROP005,Midland Multifamily,multifamily,3400 Olive St,St. Louis,MO,63103,180000,175000,1985,2017-09-12,32000000,true,2026-01-01

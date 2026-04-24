@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: raw
+    database: KEELEY_DEMO
+    schema: raw
+    description: Raw data loaded from source systems and Excel files
+    tables:
+      - name: properties
+        description: Master property list
+        columns:
+          - name: property_id
+            tests: [unique, not_null]
+      - name: leases
+        description: Active and historical lease records
+        columns:
+          - name: lease_id
+            tests: [unique, not_null]
+          - name: property_id
+            tests:
+              - not_null
+              - relationships:
+                  to: source('raw', 'properties')
+                  field: property_id
+      - name: transactions
+        description: Payment transactions from rent rolls
+        columns:
+          - name: transaction_id
+            tests: [unique, not_null]

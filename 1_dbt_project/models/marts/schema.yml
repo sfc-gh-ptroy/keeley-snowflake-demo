@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fct_lease_revenue
+    description: Fact table of all lease transactions enriched with lease and property context
+    columns:
+      - name: transaction_id
+        tests: [unique, not_null]
+      - name: transaction_date
+        tests: [not_null]
+      - name: amount
+        tests: [not_null]
+
+  - name: dim_properties
+    description: Property dimension with current occupancy metrics and risk indicators
+    columns:
+      - name: property_id
+        tests: [unique, not_null]
+      - name: occupancy_tier
+        tests:
+          - accepted_values:
+              values: ['strong', 'healthy', 'watch', 'at_risk']
