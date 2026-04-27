@@ -1,9 +1,0 @@
-property_id,property_name,unit_number,tenant_name,lease_start_date,lease_end_date,square_feet,monthly_base_rent,monthly_cam_charges,monthly_total_rent,occupancy_status,payment_status,last_payment_date
-PROP001,Midtown Office Tower,Suite 400,Acme Legal LLC,2021-06-01,2026-05-31,12000,22000,1800,23800,occupied,current,2026-04-01
-PROP001,Midtown Office Tower,Suite 600,Tech Ventures Inc,2023-01-01,2028-12-31,18000,33000,2700,35700,occupied,current,2026-04-01
-PROP001,Midtown Office Tower,Suite 800,,,,8000,,,vacant,,,
-PROP002,West County Retail Center,Unit 100,National Grocery Co,2019-03-01,2026-08-31,45000,48000,3200,51200,occupied,current,2026-04-01
-PROP002,West County Retail Center,Unit 200,Regional Bank,2022-09-01,2027-08-31,5000,9500,650,10150,occupied,current,2026-04-01
-PROP002,West County Retail Center,Unit 300,,,,12000,,,vacant,,,
-PROP003,North Park Industrial,Building A,Distribution Co,2020-01-01,2025-12-31,90000,62000,0,62000,occupied,30_days_late,2026-03-05
-PROP004,Clayton Medical Plaza,Suite 101,Mercy Health Group,2018-07-01,2028-06-30,30000,68000,4500,72500,occupied,current,2026-04-01
